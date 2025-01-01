@@ -1,0 +1,31 @@
+[project]
+name = "hb-noninvasive"
+version = "0.1.0"
+description = "Non-invasive Hb modelling research project"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    # Math, Data, ML
+    "numpy>=2.2.1",
+    "pandas>=2.2.3",
+    "xgboost>=2.1.3",
+    "xarray>=2024.11.0",
+    "netcdf4>=1.7.2",
+    "statsmodels>=0.14.4",
+    "scikit-learn>=1.6.0",
+    # Signal Processing
+    "scipy>=1.14.1",
+    "pywavelets>=1.8.0",
+    # Data Validation
+    "pydantic>=2.10.4",
+    "pyyaml>=6.0.2",
+    # Notebook and Plots
+    "seaborn>=0.13.2",
+    "matplotlib>=3.10.0",
+    "ipykernel>=6.29.5",
+    "rich>=13.9.4",
+    "tqdm>=4.67.1",
+    "ruff>=0.8.4",
+    "plotly>=5.24.1",
+    "nbformat>=5.10.4",
+]
